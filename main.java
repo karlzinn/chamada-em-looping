@@ -24,7 +24,7 @@ double n3 = sc.nextDouble();
 double media = (n1 + n2 + n3) / 3;
 
 String situacao = media >= 7.0 ? "Aprovado"
-: media >= 5.0 ? "Recuperação" : "Reprovado";
+: media >= 5.0 ? "Recuperacao" : "Reprovado";
 
 System.out.println("Aluno com media " + media + " está em situação de: " + situacao);
 }
